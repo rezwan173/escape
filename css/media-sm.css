@@ -1,0 +1,193 @@
+/* small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common */
+    h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 22px;
+    }
+
+    /* header */
+    .menu{
+        text-align: right;
+    }
+    .menu ul li a{
+        padding: 0 0 0 0 !important;
+    }
+    .header-content{
+        margin-top: 100px;
+    }
+    .header-content h3{
+        font-size: 25px !important;
+    }
+    .header-content h1{
+        font-size: 50px !important;
+        padding: 10px 0 35px 0;
+    }
+    .btn-custom{
+        font-size: 18px;
+        border: 1.5px solid #ffffff;
+        padding: 8px 30px;
+    }  
+
+    /* development*/
+    .development{
+        padding: 60px 0;
+    }
+    .dev-content h1 {
+        padding: 22px 0 2px 0 !important;
+    }
+    .dev-content p {
+        padding: 8px 0px 0 0 !important; 
+        margin: 0;
+    }
+    .flex-dir{
+        flex-direction: column-reverse;
+    }
+
+    /* branding*/
+    .branding{
+        padding: 60px 0;
+    }
+    .brand-content h1 {
+        padding: 25px 0 2px 16px !important;
+    }
+    .brand-content p{
+        padding: 8px 22px 0 16px !important; 
+        margin: 0;
+    }
+    
+    /* features */
+    .features{
+        padding: 60px 0;
+    }
+    .icon{
+        margin: 0 auto 10px auto;
+    }
+    .features-content{
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 0!important;
+    }
+    .lppb{
+        padding: 0 0 15px 0 !important;
+    }
+
+    /* clients */
+    .clients{
+        padding: 60px 0;
+    }
+    .clients-content{
+        padding: 20px 40px !important;
+    }
+    .clients-content1{
+        padding: 20px 40px !important;
+    }
+    .clients-content::before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        top: -29px;
+        left: 47%;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid #ffffff;
+        border-right: 10px solid transparent;
+    }
+    .clients-content1::after{
+        content: '';
+        width: 10px;
+        height: 10px;
+        top: -29px;
+        left: 47%;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid #ffffff;
+        border-right: 10px solid transparent;
+    }
+    .cp-1{
+        font-size: 21px;
+    }
+    .cp-2{
+        font-size: 17px;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 30px;
+    }
+    .flex-dir{
+        flex-direction:column-reverse;
+    }
+
+    /* brand */
+    .brand-logo ul li a{
+        padding: 10 0px;
+    }
+    .brand-logo ul li{
+        padding: 10;
+        margin: 0;
+    }        
+    
+    /* brand logo */
+    .brand{
+        padding: 40px 0 25px;
+    }
+    .m-10{
+        margin: 10px 0;
+    }
+    
+    /* portfolio */
+    .portfolio{
+        padding: 60px 0 !important;
+    }
+    .portfolio-circle{
+        width: 180px;
+        height: 180px;
+        border: 5px solid #ffffff;
+    }
+    .portfolio-person-mb{
+        margin-bottom: 20px;
+    }
+    .portfolio-circle-mt{
+        margin-top: 40px !important;
+    }
+    .portfolio-content-mt{
+        margin-top: 25px !important;
+    }
+
+    /* contact with footer */
+    .contact{
+        padding: 60px 0 10px;
+    }
+    /* contact form */
+    .form-custom{
+        padding: 18px 0 22px 12px;
+    }
+    .contact-mt-custom{
+        margin-top: 20px;
+    }   
+    .contact-mb-custom{
+        margin-bottom: 10px;
+    }
+    .contact-mb-custom-2{
+        margin-bottom: 25px;
+    }
+    .hr-custom{
+        margin: 40px 0 20px 0;
+    }
+    
+
+    /* footer */
+    /* .footer{
+        padding: 17px 0;
+    }
+    .footer-content p{
+        padding: 17px 0 0 0;
+    } */
+       
+}

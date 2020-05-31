@@ -1,0 +1,191 @@
+/* Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+
+    /* common */
+    h1{
+        font-size: 35px; 
+    }
+    h3{
+        font-size: 21px;
+    }
+
+    /* header */
+    .menu{
+        text-align: right;
+    }
+    .menu ul li a{
+        padding: 0 0 0 0 !important;
+    }
+    .header-content{
+        margin-top: 100px;
+    }
+    .header-content h3{
+        font-size: 20px !important;
+    }
+    .header-content h1{
+        font-size: 38px !important;
+        padding: 8px 0 27px 0;
+    }
+    .btn-custom{
+        font-size: 16px;
+        border: 1px solid #ffffff;
+        padding: 4px 18px;
+    }   
+    
+    /* development */
+    .development{
+        padding: 50px 0;
+    }
+    .dev-content h1 {
+        padding: 22px 0 10px 0 !important;
+    }
+    .flex-dir{
+        flex-direction: column-reverse;
+    }
+
+    /* branding */
+    .branding{
+        padding: 50px 0;
+    }
+    .brand-content h1 {
+        padding: 22px 0 10px 1px !important;
+    }
+    .brand-content{
+        padding: 10px 10px 0 16px !important; 
+        margin: 0;
+    }
+    .brand-content:last-p{
+        margin: 0 0 0 0 !important;
+    }
+
+     /* features */
+     .features{
+        padding: 50px 0;
+     }
+     .icon{
+        margin: 0 auto 10px auto;
+    }
+    .icon h3{
+        padding: 50px 0 0 0 !important;
+    }
+    .features-content{
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 0!important;
+    }
+    .lppb{
+        padding: 0 0 15px 0 !important;
+    }
+
+    /* clients */
+    .clients{
+        padding: 50px 0;
+    }
+    .clients-content{
+        padding: 15px 30px !important;
+    }
+    .clients-content1{
+        padding: 15px 30px !important;
+    }
+    .clients-content::before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        top: -29px;
+        left: 45%;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid #ffffff;
+        border-right: 10px solid transparent;
+    }
+    .clients-content1::after{
+        content: '';
+        width: 10px;
+        height: 10px;
+        top: -29px;
+        left: 45%;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid #ffffff;
+        border-right: 10px solid transparent;
+    }
+    .cp-1{
+        font-size: 20px;
+    }
+    .cp-2{
+        font-size: 16px;
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 30px;
+    }
+    .flex-dir{
+        flex-direction:column-reverse;
+    }
+    
+
+    /* brand logo */
+    .brand{
+	padding: 30px 0 20px;
+    }
+    .m-10{
+        margin: 10px 0;
+    }
+
+    /* portfolio */
+    .portfolio{
+        padding: 50px 0 !important;
+    }
+    .portfolio-circle{
+        width: 150px;
+        height: 150px;
+        border: 4px solid #ffffff;
+    }
+    .portfolio-person-mb{
+        margin-bottom: 15px;
+    }
+    .portfolio-circle-mt{
+        margin-top: 30px !important;
+    }
+    .portfolio-content-mt{
+        margin-top: 20px !important;
+    }   
+
+    /* contact with footer */
+    .contact{
+        padding: 50px 0 2px;
+    }
+    /* contact form */
+    .form-custom{
+        padding: 18px 0 22px 12px;
+    }
+    .contact-mt-custom{
+        margin-top: 15px;
+    }   
+    .contact-mb-custom{
+        margin-bottom: 0px;
+    }
+    .contact-mb-custom-2{
+        margin-bottom: 0px;
+    }
+    .contact-mb-custom-3{
+        margin-bottom: 25px;
+    }
+    .hr-custom{
+        margin: 35px 0 15px 0;
+    }
+    .copyright-custom p{
+        font-size: 13px !important;
+    }
+
+    /* footer */
+    /* .footer{
+        padding: 17px 0;
+    }
+    .footer-content p{
+        padding: 17px 0 0 0;
+    }  */
+}
